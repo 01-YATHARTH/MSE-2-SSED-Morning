@@ -35,7 +35,7 @@ You must complete the practical using your own GitHub and Dockerhub account.
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/MSE-2-SSED-Morning.git
-cd taskflow-docker
+cd MSE-2-SSED-Morning
 ```
 
 4. Explore the existing application structure and understand the frontend, backend, PostgreSQL and Redis dependencies.
@@ -247,7 +247,7 @@ You must ensure that:
 
 ---
 
-## 5. Final Submission Through Pull Request (5 Marks)
+## 5. Final Submission Through Pull Request
 
 After completing the implementation and verifying that the CD pipeline passes, prepare your final submission.
 
