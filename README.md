@@ -342,6 +342,67 @@ Your Pull Request description must contain:
 
 I confirm that the implementation submitted is my own work and that I have tested the containerized application.
 ```
+
+### Step 4: Prepare and Submit PDF Documentation
+
+Every student must prepare a PDF document containing the complete submission details and evidence of successful Docker implementation and CI/CD execution in moodle.
+
+**PDF File Naming Convention:**
+
+`ROLL_NUMBER_STUDENT_NAME.pdf`
+
+**The PDF must contain the following information:**
+
+#### 1. Student Information
+
+- Full Name
+- University Roll Number
+- Section
+- Branch
+- GitHub Username
+
+#### 2. GitHub Submission Details
+
+- GitHub Repository URL (personal fork)
+- GitHub branch used for the implementation
+
+#### 3. Docker Hub Details
+
+- Docker Hub Username
+- Frontend Docker Image URL
+- Backend Docker Image URL
+
+#### 4. CI/CD Execution Evidence
+
+Include clear screenshots demonstrating the successful execution of all CI/CD stages.
+
+The screenshots must cover:
+
+- GitHub Actions workflow execution.
+- Docker Hub authentication.
+- Backend Docker image build and publishing.
+- Frontend Docker image build and publishing.
+- Docker Compose image pull.
+- Application deployment.
+- Backend health check.
+- Frontend accessibility verification.
+- Final successful CI/CD pipeline status.
+- Instructor CI evaluation results, if available.
+
+#### 5. Declaration
+
+Include the following declaration at the end of the PDF:
+
+"I hereby declare that the submitted Docker implementation is my own work. I have successfully executed and verified the required CI/CD pipeline stages, published the Docker images to my Docker Hub account, and tested the application deployment."
+
+**Submission Instructions:**
+
+1. Save the completed documentation as a PDF.
+2. Attach the PDF to your final Pull Request.
+3. Ensure that all screenshots are readable and clearly demonstrate successful execution.
+4. Verify that all repository URLs and Docker Hub image URLs are accessible.
+
+**Important:** Submission of the PDF documentation is mandatory. Incomplete documentation or missing CI/CD execution screenshots may result in deduction of marks.
 ---
 
 
